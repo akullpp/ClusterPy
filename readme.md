@@ -1,4 +1,3 @@
-Mercurial: https://bitbucket.org/akull/cluster
 Tested on: Windows 7 (x64) with Python 2.7.3 (x86)
 
 Usage: ./cluster.py <input file> [output file] <number of labels> <number of iterations> <alpha> <beta>
