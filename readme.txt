@@ -1,0 +1,19 @@
+Mercurial: https://bitbucket.org/akull/cluster
+Tested on: Windows 7 (x64) with Python 2.7.3 (x86)
+
+Usage: ./cluster.py <input file> [output file] <number of labels> <number of iterations> <alpha> <beta>
+
+Commandline arguments:
+<input file> - File with sequences one per line
+[output file] - Output file
+<number of labels> - Possible labels
+<number of iterations> - Number of sampling iterations
+<alpha> - Hyperparameter for transitions
+<beta> - Hyperparameter for emissions
+
+Folder content:
+bhmm.py - Gibbs sampling
+cluster.py - Entry point
+corpus.txt - toy corpus
+readme.txt - this file
+utility.py - Utility methods
