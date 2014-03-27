@@ -1,4 +1,5 @@
 Tested on: Windows 7 (x64) with Python 2.7.3 (x86)
+License: MIT
 
 Usage: ./cluster.py <input file> [output file] <number of labels> <number of iterations> <alpha> <beta>
 
